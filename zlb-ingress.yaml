@@ -17,3 +17,9 @@ spec:
             name: zlb
             port:
               number: 80
+              
+  tls:
+  - hosts:
+    - zlb.focus.com.tn
+    cert: cert.pem
+    key: key.pem 
