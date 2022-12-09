@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: zlb
+  namespace: zlb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: zlb
+  template:
+    metadata:
+      labels:
+        app: zlb
+    spec:
+      containers:
+      - name: zlb
+        image: zevenet/zlb:latest
+        ports:
+        - containerPort: 444
