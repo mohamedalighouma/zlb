@@ -18,8 +18,3 @@ spec:
             port:
               number: 444
               
-  tls:
-  - hosts:
-    - zlb.focus.com.tn
-    cert: cert.pem
-    key: key.pem 
