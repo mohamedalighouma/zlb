@@ -7,7 +7,7 @@ spec:
   type: ClusterIP
   ports:
   - port: 8081
-    targetPort: 8081
+    targetPort: 444
   selector:
     app: zlb
    
