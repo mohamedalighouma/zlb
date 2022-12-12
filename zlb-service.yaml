@@ -7,6 +7,6 @@ spec:
   type: NodePort
   ports:
   - port: 444
-    targetPort: 444
+#    targetPort: 444
   selector:
     app: zlb
