@@ -32,5 +32,5 @@ spec:
           service:
             name: zlb
             port:
-              number: 444
+              number: 80
               
